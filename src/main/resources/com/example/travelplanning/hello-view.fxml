@@ -2,14 +2,16 @@
 
 <?import java.lang.String?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../../CSS/Default.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" styleClass="back" stylesheets="@../../../CSS/Default.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="614.0" layoutY="347.0" mnemonicParsing="false" stylesheets="@../../../CSS/Default.css" text="Button">
          <styleClass>
             <String fx:value="button" />
             <String fx:value="button" />
          </styleClass></Button>
+      <Label alignment="CENTER" layoutX="543.0" layoutY="74.0" prefHeight="58.0" prefWidth="194.0" text="Welcome to &lt;Insert name here&gt;" />
    </children>
 </AnchorPane>
