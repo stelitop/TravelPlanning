@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
-public class HomePageCtrl {
+public class HomePageCtrl extends MainCtrl {
     @FXML
     private Label welcomeText;
 
@@ -15,4 +15,5 @@ public class HomePageCtrl {
     protected void onPlanButtonPressed() {
         System.out.println("Pressed plan button");
     }
+
 }

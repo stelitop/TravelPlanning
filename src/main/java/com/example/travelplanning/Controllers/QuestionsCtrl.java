@@ -1,4 +1,5 @@
 package com.example.travelplanning.Controllers;
 
-public class BudgetCtrl {
+public class QuestionsCtrl extends MainCtrl{
+
 }
