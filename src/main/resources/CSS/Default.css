@@ -2,5 +2,5 @@
     -fx-background-color: red;
 }
 .back{
-    -fx-background-color: linear-gradient(to right, #68FFB4, floralwhite);
+    -fx-background-color: linear-gradient(to bottom right, #68FFB4, floralwhite);
 }
