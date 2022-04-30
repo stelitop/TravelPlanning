@@ -9,10 +9,10 @@ public class HomePageCtrl {
     private Label welcomeText;
 
     @FXML
-    private Button Plan;
+    private Button planButton;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected void onPlanButtonPressed() {
+        System.out.println("Pressed plan button");
     }
 }
