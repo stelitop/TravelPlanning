@@ -32,8 +32,8 @@ public class FormManager {
     }
 
     private void setStage(Stage stage) {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         try {
+            FXMLLoader fxmlLoader = new FXMLLoader(FormManager.class.getResource("hello-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             scene.getStylesheets().add(getClass().getResource("/CSS/Default.css").toExternalForm());
         } catch (IOException e) {
