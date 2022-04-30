@@ -14,6 +14,7 @@ public class HomePageCtrl extends MainCtrl {
     @FXML
     protected void onPlanButtonPressed() {
         System.out.println("Pressed plan button");
+
     }
 
 }
