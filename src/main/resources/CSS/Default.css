@@ -1,5 +1,7 @@
 .button{
-    -fx-background-color: red;
+    -fx-background-color: #fff854;
+    -fx-font-size: 32px;
+    -fx-border-radius: 40px;
 }
 .back{
     -fx-background-color: linear-gradient(to bottom right, #68FFB4, floralwhite);
