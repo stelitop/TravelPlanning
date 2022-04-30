@@ -1,6 +1,5 @@
 package com.example.travelplanning;
 
-
 public class TravelForm {
 	public float budget;
 	public int numPeople;
