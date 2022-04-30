@@ -1,4 +1,4 @@
-package com.example.travelplanning;
+package com.example.travelplanning.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

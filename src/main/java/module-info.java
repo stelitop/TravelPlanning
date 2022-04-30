@@ -6,4 +6,6 @@ module com.example.travelplanning {
 
     opens com.example.travelplanning to javafx.fxml;
     exports com.example.travelplanning;
+    exports com.example.travelplanning.Controllers;
+    opens com.example.travelplanning.Controllers to javafx.fxml;
 }
